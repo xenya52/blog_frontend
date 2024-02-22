@@ -1,12 +1,13 @@
 
 import { Header, Footer } from './components/index'
 import './app.css'
+import { Button } from 'react-bootstrap'
 
 function App() {
   return (
-    <div className='App'>
+      <div className='App'>
       <Header />
-      <button>Click me!</button>
+      <Button>Click me</Button>
       <Footer />
     </div>
   )
