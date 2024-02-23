@@ -1,0 +1,17 @@
+.header-container{
+    background-color: #fd95b4;
+    border: solid #e87698;
+    border-width: 0px 0px 2px 0px;
+}
+.header-img{
+    width: 2vw;
+    height: 2vw;
+    border-radius: 50%;
+    margin: 2px;
+}
+.header-container-right{
+    float: right;
+    text-align: left;
+    font-size: 1.5vw;
+    margin-right: 2vw;
+}

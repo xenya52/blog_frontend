@@ -1,4 +1,9 @@
+@font-face {
+  font-family: "Terminus";
+  src: url(./assets/fonts/TerminusTTF.ttf);
+}
 body{
-  background-color: black;
-  color: white;
+  background-color: #2c2729;
+  font-family: "Terminus";
+  color: #f6e9cb;
 }

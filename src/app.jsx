@@ -7,8 +7,6 @@ function App() {
   return (
       <div className='App'>
       <Header />
-      <Button>Click me</Button>
-      <Footer />
     </div>
   )
 }
