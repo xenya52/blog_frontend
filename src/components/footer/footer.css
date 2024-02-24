@@ -1,5 +1,9 @@
-.foot{
-    border-color: rgb(255, 0, 0);
-    border: 5px;
-    border-style: solid;
+.footer-container{
+    margin-left: 45vw;
+}
+.footer-img{
+    width: 1.5vw;
+    height: 1.5vw;
+    border-radius: 50%;
+    margin: 2px;
 }

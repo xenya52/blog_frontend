@@ -11,7 +11,17 @@
 }
 .header-container-right{
     float: right;
-    text-align: left;
-    font-size: 1.5vw;
     margin-right: 2vw;
+}
+.header-content{
+    font-size: 1.4vw;
+    color: black;
+}
+.header-button{
+    background-color: #fd95b4;
+    border: 0px;
+    border-radius: 15%;
+}
+.header-button:active{
+    background-color: #fcb2c8;
 }
