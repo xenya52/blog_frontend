@@ -2,6 +2,10 @@
   font-family: "Terminus";
   src: url(./assets/fonts/TerminusTTF.ttf);
 }
+@font-face {
+  font-family: "Minecraft";
+  src: url(./assets/fonts/minecraft.ttf)
+}
 body{
   background-color: #2c2729;
   font-family: "Terminus";
