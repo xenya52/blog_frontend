@@ -1,13 +1,17 @@
 
 import Header from './components/header/header'
 import Footer from './components/footer/footer'
+import Background from './assets/pictures/testBackground.png'
 import './app.css'
-import { Button } from 'react-bootstrap'
 
 function App() {
   return (
       <div className='App'>
       <Header />
+      <div className='welcome-text-container'>
+        <h1 className='welcome-headline'>Welcome to my blog</h1>
+        <p className='welcome-text'>Its very chaotic</p>
+      </div>  
       <Footer />
     </div>
   )

@@ -7,7 +7,8 @@ function Home() {
     return(
         <div>
             <Header />
-            <p>Home</p>
+            <h1>Welcome to my blog</h1>
+            <p>Its very chaotic</p>
             <Footer />
         </div>
     )
