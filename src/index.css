@@ -17,3 +17,8 @@ body{
   width: 100vw;
   height: 100vh;
 }
+.topic-h1-headline{
+  font-family: "Minecraft";
+  font-size: 4vw;
+  text-align: center;
+}

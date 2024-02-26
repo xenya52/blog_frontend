@@ -7,7 +7,7 @@ function Galery() {
     return(
         <div>
             <Header />
-            <h1 className='galery-topic-headline'>Project Galery</h1>
+            <h1 className='topic-h1-headline'>Project Galery</h1>
             <div className='galery-grid-container'>
                 <div className='galery-grid'>
                     <img src='' className='galery-grid-img' />
