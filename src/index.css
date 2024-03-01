@@ -11,14 +11,13 @@ body{
   font-family: "Terminus";
   color: #f6e9cb;
 }
-.background{
-  position: absolute;
-  z-index: -10;
-  width: 100vw;
-  height: 100vh;
-}
 .topic-h1-headline{
   font-family: "Minecraft";
   font-size: 4vw;
   text-align: center;
+}
+.content-container{
+  margin-left: 25vw;
+  margin-right: 25vw;
+  justify-content: center;
 }

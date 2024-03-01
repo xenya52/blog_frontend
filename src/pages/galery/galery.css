@@ -1,7 +1,6 @@
 .galery-grid-container{
     display: grid;
-    grid-template-columns: 15vw 25vw;
-    margin-left: 30vw;
+    grid-template-columns: 15vw 35vw;
 }
 .galery-grid{
     margin: 10px;
@@ -10,4 +9,7 @@
     border: 2px solid #e87698;
     width: 100%;
     height: 100%;
+}
+.galery-grid-text{
+    margin: 0;
 }

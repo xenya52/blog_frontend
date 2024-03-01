@@ -1,19 +1,27 @@
-
-import Header from './components/header/header'
-import Footer from './components/footer/footer'
-import Background from './assets/pictures/testBackground.png'
-import './app.css'
+import { Header,Footer } from './components/index.jsx';
+import { AboutMe,
+        Blogs,
+        Error,
+        Galery,
+        Home} from './pages/index.jsx';
+import { BrowserRouter, Routes, Route} from 'react-router-dom';
 
 function App() {
   return (
-      <div className='App'>
+    <>
+      <BrowserRouter>
       <Header />
-      <div className='welcome-text-container'>
-        <h1 className='topic-h1-headline'>Welcome to my blog</h1>
-        <p className='welcome-text'>Its very chaotic</p>
-      </div>  
+        <Routes>
+          <Route path='/'Component={Home} />
+          <Route path='/AboutMe'Component={AboutMe} />
+          <Route path='/Blogs'Component={Blogs} />
+          <Route path='Blogs:id' />
+          <Route path='/Galery'Component={Galery} />
+          <Route path='*' Component={Error} />
+        </Routes>
       <Footer />
-    </div>
+      </BrowserRouter>
+    </>
   )
 }
 

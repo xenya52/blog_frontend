@@ -1,15 +1,10 @@
-
-import Footer from '../../components/footer/footer'
-import Header from '../../components/header/header'
 import './home.css'
 
 function Home() {
     return(
-        <div>
-            <Header />
-            <h1>Welcome to my blog</h1>
-            <p>Its very chaotic</p>
-            <Footer />
+        <div className='welcome-text-container'>
+            <h1 className='topic-h1-headline'>Welcome to my blog</h1>
+            <p className='welcome-text'>Its very chaotic</p>
         </div>
     )
 }
