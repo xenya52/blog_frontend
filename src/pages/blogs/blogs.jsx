@@ -1,25 +1,44 @@
 import './blogs.css'
+import dumby from '../../assets/pictures/testBackground.png'
 
 function Blogs() {
     return(
         <div>
-            <div className='blog-hot-container content-container'>
+            <h1 className='topic-h1-headline'>Blogs</h1>
+            <div className='content-container'>
                 <div>
-                    {/* img hot */}
+                    <img  className='img-default'src={dumby}></img>
                 </div>
                 <div>
-                    {/* headline/text hot */}
+                    <h3 className='blog-headline'>
+                        Lorem ipsum dolor
+                    </h3>
                 </div>
-            </div>
-            <div className='blog-grid'>
-                <div>
-                    {/* grid01 */}
-                </div>
-                <div>
-                    {/* grid02 */}
-                </div>
-                <div>
-                    {/* grid03 */}
+                <div className='blog-grid-container'>
+                    <div className='blog-grid'>
+                        <h3 className='blog-headline'>
+                            Lorem ipsum dolor
+                        </h3>
+                        {/* grid01 */}
+                    </div>
+                    <div className='blog-grid'>
+                        <h3 className='blog-headline'>
+                            Lorem ipsum dolor
+                        </h3>
+                        {/* grid02 */}
+                    </div>
+                    <div className='blog-grid'>
+                        <h3 className='blog-headline'>
+                            Lorem ipsum dolor
+                        </h3>
+                        {/* grid03 */}
+                    </div>
+                    <div className='blog-grid'>
+                        <h3 className='blog-headline'>
+                            Lorem ipsum dolor
+                        </h3>
+                        {/* grid04 */}
+                    </div>
                 </div>
             </div>
         </div>
