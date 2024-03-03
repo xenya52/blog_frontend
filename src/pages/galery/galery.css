@@ -1,6 +1,6 @@
 .galery-grid-container{
     display: grid;
-    grid-template-columns: 15vw 35vw;
+    grid-template-columns: auto 25vw;
 }
 .galery-grid{
     margin: 10px;

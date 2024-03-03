@@ -16,28 +16,40 @@ function Blogs() {
                 </div>
                 <div className='blog-grid-container'>
                     <div className='blog-grid'>
-                        <h3 className='blog-headline'>
+                        <button className='blog-button'>
                             Lorem ipsum dolor
-                        </h3>
+                        </button>
                         {/* grid01 */}
                     </div>
                     <div className='blog-grid'>
-                        <h3 className='blog-headline'>
+                        <button className='blog-button'>
                             Lorem ipsum dolor
-                        </h3>
+                        </button>
                         {/* grid02 */}
                     </div>
                     <div className='blog-grid'>
-                        <h3 className='blog-headline'>
+                        <button className='blog-button'>
                             Lorem ipsum dolor
-                        </h3>
+                        </button>
                         {/* grid03 */}
                     </div>
                     <div className='blog-grid'>
-                        <h3 className='blog-headline'>
+                        <button className='blog-button'>
                             Lorem ipsum dolor
-                        </h3>
+                        </button>
                         {/* grid04 */}
+                    </div>
+                    <div className='blog-grid'>
+                        <button className='blog-button'>
+                            Lorem ipsum dolor
+                        </button>
+                        {/* grid0 */}
+                    </div>
+                    <div className='blog-grid'>
+                        <button className='blog-button'>
+                            Lorem ipsum dolor
+                        </button>
+                        {/* grid06 */}
                     </div>
                 </div>
             </div>
