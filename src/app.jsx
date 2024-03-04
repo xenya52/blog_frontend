@@ -1,26 +1,30 @@
-import { Header,Footer } from './components/index.jsx';
-import { AboutMe,
+//Components
+import { Footer, Header } from './components/index.jsx';
+//Pages
+import {AboutMe,
         Blogs,
         Error,
         Galery,
         Home} from './pages/index.jsx';
-import { BrowserRouter, Routes, Route} from 'react-router-dom';
+//External Libaries
+import { Route, Switch } from 'wouter';
 
 function App() {
   return (
     <>
-      <BrowserRouter>
       <Header />
-        <Routes>
-          <Route path='/'Component={Home} />
-          <Route path='/AboutMe'Component={AboutMe} />
-          <Route path='/Blogs'Component={Blogs} />
-          <Route path='Blogs:id' />
-          <Route path='/Galery'Component={Galery} />
-          <Route path='*' Component={Error} />
-        </Routes>
+      <Switch>
+        <Route path='/' component={Home} />
+        <Route path='aboutMe' component={AboutMe} />
+        <Route path='blogs' nest> 
+          <Route path='/' component={Blogs} />
+        </Route>
+        <Route path='galery' nest>
+          <Route path='/' component={Galery} />
+        </Route>
+        <Route component={Error} />
+      </Switch>
       <Footer />
-      </BrowserRouter>
     </>
   )
 }
