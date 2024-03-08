@@ -13,7 +13,8 @@ function Header() {
                         <Link to='/'><button className='header-button'>Home</button></Link>|
                         <Link to='/AboutMe'><button className='header-button'>About me</button></Link>|
                         <Link to='/Blogs'><button className='header-button'>Blogs</button></Link>|
-                        <Link to='/Galery'><button className='header-button'>Galery</button></Link>
+                        <Link to='/Galery'><button className='header-button'>Galery</button></Link>|
+                        <Link to='/Events'><button className='header-button'>Events</button></Link>
                     </p>
                 </div>
             </header>

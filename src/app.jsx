@@ -4,6 +4,7 @@ import { Footer, Header } from './components/index.jsx';
 import {AboutMe,
         Blogs,
         Error,
+        Events,
         Galery,
         Home} from './pages/index.jsx';
 //External Libaries
@@ -22,6 +23,7 @@ function App() {
         <Route path='galery' nest>
           <Route path='/' component={Galery} />
         </Route>
+        <Route path='events' component={Events} />
         <Route component={Error} />
       </Switch>
       <Footer />
