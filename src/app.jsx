@@ -7,6 +7,7 @@ import {AboutMe,
         Events,
         Galery,
         Home} from './pages/index.jsx';
+
 //External Libaries
 import { Route, Switch } from 'wouter';
 
@@ -22,6 +23,9 @@ function App() {
         </Route>
         <Route path='galery' nest>
           <Route path='/' component={Galery} />
+          <Route path="/:title">
+          {(params) => <>{params.title}!</>}
+          </Route>
         </Route>
         <Route path='events' component={Events} />
         <Route component={Error} />

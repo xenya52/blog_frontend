@@ -12,11 +12,12 @@
 }
 .header-container-right{
     float: right;
-    margin-right: 2vw;
-}
-.header-content{
     font-size: 1.4vw;
     color: black;
+    margin-right: 2px;
+}
+.header-navbar{
+    width: 2vw;
 }
 .header-button{
     background-color: #fd95b4;
