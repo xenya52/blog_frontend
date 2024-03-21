@@ -1,5 +1,6 @@
 import './blogs.css'
 import dumby from '../../assets/pictures/testBackground.png'
+import blogData from '../../assets/content.json'
 
 function Blogs() {
     return(
@@ -15,42 +16,13 @@ function Blogs() {
                     </h3>
                 </div>
                 <div className='blog-grid-container'>
-                    <div className='blog-grid'>
-                        <button className='blog-button'>
-                            Lorem ipsum dolor
-                        </button>
-                        {/* grid01 */}
-                    </div>
-                    <div className='blog-grid'>
-                        <button className='blog-button'>
-                            Lorem ipsum dolor
-                        </button>
-                        {/* grid02 */}
-                    </div>
-                    <div className='blog-grid'>
-                        <button className='blog-button'>
-                            Lorem ipsum dolor
-                        </button>
-                        {/* grid03 */}
-                    </div>
-                    <div className='blog-grid'>
-                        <button className='blog-button'>
-                            Lorem ipsum dolor
-                        </button>
-                        {/* grid04 */}
-                    </div>
-                    <div className='blog-grid'>
-                        <button className='blog-button'>
-                            Lorem ipsum dolor
-                        </button>
-                        {/* grid0 */}
-                    </div>
-                    <div className='blog-grid'>
-                        <button className='blog-button'>
-                            Lorem ipsum dolor
-                        </button>
-                        {/* grid06 */}
-                    </div>
+                    {blogData.blogs.map((blog, index) => (
+                        <div className='blog-grid' key={index}>
+                            <button className='blog-button'>
+                                {blog.title}
+                            </button>
+                        </div>
+                    ))}
                 </div>
             </div>
         </div>
@@ -58,3 +30,50 @@ function Blogs() {
 }
 
 export default Blogs
+
+{/* <div>
+      {blogData.blogs.map((blog, index) => (
+        <div key={index}>
+          <h2>{blog.title}</h2>
+          <p>{blog.introduction}</p>
+          <ul>
+            {blog.main_points.map((point, index) => (
+              <li key={index}>{point}</li>
+            ))}
+          </ul>
+        </div>
+      ))}
+    </div> */}
+
+{/* <div className='blog-grid-container'>
+                    <div className='blog-grid'>
+                        <button className='blog-button'>
+                            Lorem ipsum dolor
+                        </button>
+                    </div>
+                    <div className='blog-grid'>
+                        <button className='blog-button'>
+                            Lorem ipsum dolor
+                        </button>
+                    </div>
+                    <div className='blog-grid'>
+                        <button className='blog-button'>
+                            Lorem ipsum dolor
+                        </button>
+                    </div>
+                    <div className='blog-grid'>
+                        <button className='blog-button'>
+                            Lorem ipsum dolor
+                        </button>
+                    </div>
+                    <div className='blog-grid'>
+                        <button className='blog-button'>
+                            Lorem ipsum dolor
+                        </button>
+                    </div>
+                    <div className='blog-grid'>
+                        <button className='blog-button'>
+                            Lorem ipsum dolor
+                        </button>
+                    </div>
+                </div> */}
