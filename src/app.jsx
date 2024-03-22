@@ -1,5 +1,7 @@
 //Components
 import { Footer, Header } from './components/index.jsx';
+//Test
+import BlogPost from './pages/blogs/blog-post.jsx';
 //Pages
 import {AboutMe,
         Blogs,
@@ -7,9 +9,9 @@ import {AboutMe,
         Events,
         Galery,
         Home} from './pages/index.jsx';
-
 //External Libaries
 import { Route, Switch } from 'wouter';
+import blogData from '../../assets/content.json'
 
 function App() {
   return (
@@ -20,6 +22,7 @@ function App() {
         <Route path='aboutMe' component={AboutMe} />
         <Route path='blogs' nest> 
           <Route path='/' component={Blogs} />
+          <Route path='/blogs/:blogId' component={BlogPost} />
         </Route>
         <Route path='galery' nest>
           <Route path='/' component={Galery} />

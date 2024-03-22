@@ -16,11 +16,9 @@ function Blogs() {
                     </h3>
                 </div>
                 <div className='blog-grid-container'>
-                    {blogData.blogs.map((blog, index) => (
-                        <div className='blog-grid' key={index}>
-                            <button className='blog-button'>
-                                {blog.title}
-                            </button>
+                {blogData.blogs.map((blog, index) => (
+                        <div key={index}>
+                        <Link to={`/blogs/${index}`}>{blog.title}</Link>
                         </div>
                     ))}
                 </div>
