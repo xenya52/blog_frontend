@@ -1,20 +1,27 @@
 import React from 'react';
-import { useParams } from 'react-router-dom';
-import blogsContent from './data/blogs-content.json';
+import { useParams } from 'wouter';
+import blogsContent from '../../assets/content.json';
+import dumby from '../../assets/pictures/testBackground.png'
+
 
 const BlogPost = () => {
-  let { blogId } = useParams();
-  const blog = blogsContent.blogs.find((b, index) => index.toString() === blogId);
+  let { slug } = useParams();
 
-  if (!blog) {
-    return <div>Blogpost nicht gefunden.</div>;
+  const blogPost = blogsContent.blogs[slug];
+
+  if (!blogPost) {
+    return <div>Blogpost not found!</div>;
   }
 
   return (
     <div>
-      <h2>{blog.title}</h2>
-      <p>{blog.introduction}</p>
-      {/* Weitere Blog-Details hier */}
+        <div className='content-container'>
+          <div>
+            <img  className='img-default'src={dumby}  />
+          </div>
+          <h3>{blogPost.title}</h3>
+          <p>{blogPost.introduction}</p>
+        </div>
     </div>
   );
 };

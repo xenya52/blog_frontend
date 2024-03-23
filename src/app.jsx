@@ -11,7 +11,7 @@ import {AboutMe,
         Home} from './pages/index.jsx';
 //External Libaries
 import { Route, Switch } from 'wouter';
-import blogData from '../../assets/content.json'
+import blogData from '/home/xenya/Documents/Development/JsStuff/lucy-hobby-blog/src/assets/content.json'
 
 function App() {
   return (
@@ -22,13 +22,10 @@ function App() {
         <Route path='aboutMe' component={AboutMe} />
         <Route path='blogs' nest> 
           <Route path='/' component={Blogs} />
-          <Route path='/blogs/:blogId' component={BlogPost} />
+          <Route path='blogs/:slug' component={BlogPost} />
         </Route>
         <Route path='galery' nest>
           <Route path='/' component={Galery} />
-          <Route path="/:title">
-          {(params) => <>{params.title}!</>}
-          </Route>
         </Route>
         <Route path='events' component={Events} />
         <Route component={Error} />

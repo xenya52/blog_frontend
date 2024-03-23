@@ -1,25 +1,21 @@
 .blog-grid-container{
-    margin-top: 7.5vh;
+    margin-top: 7vh;
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: 15vw 15vw 15vw;
     justify-content: center;
     justify-items: center;
 }
-.blog-headline{
-    text-align: center;
-}
 .blog-grid{
-    margin: 2px;
+    margin: 5%;
 }
 .blog-button{
     background-color: #fd95b4;
     border: 2px solid #e87698;
-    border-radius: 15px;
     text-align: center;
+    height: 100%;
 }
 .blog-button:active{
     background-color: #fd95b4;
     border: 1px solid #e87698;
-    border-radius: 15px;
     text-align: center;
 }
