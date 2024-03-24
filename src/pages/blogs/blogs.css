@@ -1,12 +1,11 @@
 .blog-grid-container{
-    margin-top: 7vh;
     display: grid;
     grid-template-columns: 15vw 15vw 15vw;
     justify-content: center;
     justify-items: center;
 }
 .blog-grid{
-    margin: 5%;
+    margin: 1%;
 }
 .blog-button{
     background-color: #fd95b4;
