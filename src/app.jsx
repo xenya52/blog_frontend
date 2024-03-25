@@ -11,7 +11,6 @@ import {AboutMe,
         Home} from './pages/index.jsx';
 //External Libaries
 import { Route, Switch } from 'wouter';
-import blogData from '/home/xenya/Documents/Development/JsStuff/lucy-hobby-blog/src/assets/content.json'
 
 function App() {
   return (

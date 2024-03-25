@@ -18,6 +18,7 @@
 }
 .header-navbar{
     width: 2vw;
+    height: auto;
 }
 .header-button{
     background-color: #fd95b4;
