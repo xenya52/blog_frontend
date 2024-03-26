@@ -27,26 +27,16 @@ function Blogs() {
                     <img className='img-default' src={dumby} alt="Background"></img>
                 </div>
                 <div className='carousel-container'>
-                    <div className='blog-display'>
-                        <div key={currentIndex} className='blog-grid'>
-                            <Link to={`/blogs/${currentIndex}`} slug={blogData.blogs[currentIndex]}>
-                                <button className="blog-button">{blogData.blogs[currentIndex].title}</button>
-                            </Link>
-                        </div>
-                        <div key={currentIndex} className='blog-grid'>
-                            <Link to={`/blogs/${currentIndex}`} slug={blogData.blogs[currentIndex]}>
-                                <button className="blog-button">{blogData.blogs[currentIndex].title}</button>
-                            </Link>
-                        </div>
-                        <div key={currentIndex} className='blog-grid'>
-                            <Link to={`/blogs/${currentIndex}`} slug={blogData.blogs[currentIndex]}>
-                                <button className="blog-button">{blogData.blogs[currentIndex].title}</button>
-                            </Link>
-                        </div>
+                    <div className='blog-container' key={currentIndex}>
+                        <Link to={`/blogs/${currentIndex}`} slug={blogData.blogs[currentIndex]}>
+                            <button className="blog-button">{blogData.blogs[currentIndex].title}</button>
+                        </Link>
+                    </div>
+                    <div className='blog-nav-container'>
+                        <button className="carousel-button blog-button" onClick={goToPrevious}>←</button>
+                        <button className="carousel-button blog-button" onClick={goToNext}>→ </button>
                     </div>
                 </div>
-                <button className="carousel-button" onClick={goToPrevious}>B</button>
-                <button className="carousel-button" onClick={goToNext}>P</button>
             </div>
         </div>
     );

@@ -1,17 +1,22 @@
-.blog-grid-container{
-    display: grid;
-    grid-template-columns: 15vw 15vw 15vw;
+.blog-container{
+    display: flex;
     justify-content: center;
     justify-items: center;
+    margin-top: 1.5vh;
 }
-.blog-grid{
-    margin: 1%;
+.blog-nav-container {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    margin-top: 0.5vh;
 }
 .blog-button{
     background-color: #fd95b4;
     border: 2px solid #e87698;
     text-align: center;
-    height: 100%;
+    white-space: nowrap;
+    margin-right: 0.5vw;
+    margin-bottom: 0.5vh;
 }
 .blog-button:active{
     background-color: #fd95b4;

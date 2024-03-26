@@ -1,5 +1,5 @@
 import React from 'react';
-import { useParams } from 'wouter';
+import { useParams, Link } from 'wouter';
 import blogsContent from '../../assets/content.json';
 import dumby from '../../assets/pictures/testBackground.png'
 
@@ -16,6 +16,7 @@ const BlogPost = () => {
   return (
     <div>
         <div className='content-container'>
+          <Link to='/'><button className='blog-button'>←</button></Link>
           <div>
             <img  className='img-default'src={dumby}  />
           </div>
