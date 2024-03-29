@@ -30,13 +30,11 @@ function Header() {
 
     return(
         <div className='header-container'>
-            <header>
                 <img  className='header-img' src={logo} />
-                <div className='header-container-right'>
-                    {navContent}
-                    <img className='header-navbar' src={NavbarIcon} alt='navImg' onClick={handleNavBarClick} />
-                </div>
-            </header>
+                    <div className='header-container-right'>
+                        {navContent}
+                        <img src={NavbarIcon} alt='navImg' onClick={handleNavBarClick} />
+                    </div>
         </div>
     )
 }

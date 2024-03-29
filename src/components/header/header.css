@@ -3,22 +3,25 @@
     border: solid #e87698;
     border-width: 0px 0px 2px 0px;
     margin-bottom: 8vh;
+    color: #2c2729;
+    font-size: 17px;
+
 }
 .header-img{
-    width: 2vw;
-    height: 2vw;
+    width: 30px;
+    height: 30px;
     border-radius: 50%;
-    margin: 2px;
+    margin-top: 2px;
+    margin-left: 3px;
 }
-.header-container-right{
+.header-container-right {
     float: right;
-    font-size: 1.4vw;
-    color: black;
-    margin-right: 2px;
+    margin-top: 2px;
+    margin-right: 3px;
 }
-.header-navbar{
-    width: 2vw;
-    height: auto;
+.header-container-right img{
+    width: 30px;
+    height: 30px;
 }
 .header-button{
     background-color: #fd95b4;
