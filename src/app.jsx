@@ -6,8 +6,8 @@ import BlogPost from './pages/blogs/blog-post.jsx';
 import {AboutMe,
         Blogs,
         Error,
-        Events,
         Galery,
+        Todos,
         Home} from './pages/index.jsx';
 //External Libaries
 import { Route, Switch } from 'wouter';
@@ -26,7 +26,7 @@ function App() {
         <Route path='galery' nest>
           <Route path='/' component={Galery} />
         </Route>
-        <Route path='events' component={Events} />
+        <Route path='todos' component={Todos} />
         <Route component={Error} />
       </Switch>
       <Footer />

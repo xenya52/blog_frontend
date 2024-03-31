@@ -1,0 +1,42 @@
+[
+    {
+        "title": "Einkaufen gehen",
+        "description": "Milch, Brot, K\u00e4se und Eier kaufen"
+    },
+    {
+        "title": "Wohnung putzen",
+        "description": "Staubsaugen und Boden wischen"
+    },
+    {
+        "title": "Auto zur Inspektion bringen",
+        "description": "Termin f\u00fcr n\u00e4chste Woche vereinbaren"
+    },
+    {
+        "title": "Steuererkl\u00e4rung machen",
+        "description": "Alle Belege sammeln und Formulare ausf\u00fcllen"
+    },
+    {
+        "title": "Fitnessstudio anmelden",
+        "description": "N\u00e4chstgelegenes Fitnessstudio finden und anmelden"
+    },
+    {
+        "title": "Buch lesen",
+        "description": "Das neue Buch von meinem Lieblingsautor anfangen"
+    },
+    {
+        "title": "Pflanzen gie\u00dfen",
+        "description": "Alle Zimmerpflanzen gr\u00fcndlich gie\u00dfen"
+    },
+    {
+        "title": "Geschenk kaufen",
+        "description": "Geburtstagsgeschenk f\u00fcr besten Freund aussuchen"
+    },
+    {
+        "title": "Arzttermin vereinbaren",
+        "description": "J\u00e4hrliche Kontrolluntersuchung planen"
+    },
+    {
+        "title": "Reise planen",
+        "description": "Urlaubsort recherchieren und Unterkunft buchen"
+    }
+]

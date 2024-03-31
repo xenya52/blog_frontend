@@ -20,7 +20,7 @@ function Header() {
                     <Link to='/AboutMe'><button className='header-button'>About me</button></Link>|
                     <Link to='/Blogs'><button className='header-button'>Blogs</button></Link>|
                     <Link to='/Galery'><button className='header-button'>Galery</button></Link>|
-                    <Link to='/Events'><button className='header-button'>Events</button></Link>
+                    <Link to='/Todos'><button className='header-button'>Todos</button></Link>
                 </>
             );
         } else {
