@@ -1,6 +1,5 @@
 export {default as AboutMe} from './about-me/about-me'
 export {default as Blogs} from './blogs/blogs'
 export {default as Error} from './error/error'
-export {default as Galery} from './galery/galery'
 export {default as Home} from './home/home'
 export {default as Todos} from './todos/todo'

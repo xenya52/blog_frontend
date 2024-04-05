@@ -6,7 +6,6 @@ import BlogPost from './pages/blogs/blog-post.jsx';
 import {AboutMe,
         Blogs,
         Error,
-        Galery,
         Todos,
         Home} from './pages/index.jsx';
 //External Libaries
@@ -22,9 +21,6 @@ function App() {
         <Route path='blogs' nest> 
           <Route path='/' component={Blogs} />
           <Route path='blogs/:slug' component={BlogPost} />
-        </Route>
-        <Route path='galery' nest>
-          <Route path='/' component={Galery} />
         </Route>
         <Route path='todos' component={Todos} />
         <Route component={Error} />
