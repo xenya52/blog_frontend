@@ -1,10 +1,10 @@
 import React from 'react';
 import { useParams, Link } from 'wouter';
-import blogsContent from '../../assets/content.json';
+import blogsContent from '../../assets/blogs-content.json';
 import dumby from '../../assets/pictures/testBackground.png'
 
 
-const BlogPost = () => {
+const BlogIndex = () => {
   let { slug } = useParams();
 
   const blogPost = blogsContent.blogs[slug];
@@ -27,4 +27,4 @@ const BlogPost = () => {
   );
 };
 
-export default BlogPost;
+export default BlogIndex;

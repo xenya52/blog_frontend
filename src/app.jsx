@@ -1,7 +1,7 @@
 //Components
 import { Footer, Header } from './components/index.jsx';
 //Test
-import BlogPost from './pages/blogs/blog-post.jsx';
+import BlogPost from './pages/blogs/blog-index.jsx';
 //Pages
 import {AboutMe,
         Blogs,
@@ -20,7 +20,7 @@ function App() {
         <Route path='aboutMe' component={AboutMe} />
         <Route path='blogs' nest> 
           <Route path='/' component={Blogs} />
-          <Route path='blogs/:slug' component={BlogPost} />
+          {/* <Route path='blogs/:slug' component={BlogPost} /> */}
         </Route>
         <Route path='todos' component={Todos} />
         <Route component={Error} />
