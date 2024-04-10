@@ -4,7 +4,7 @@ function Todos() {
     return(
         <div className="content-container">
             <h1 className='topic-h1-headline'>Todos</h1>
-            <TodoPost />
+                <TodoPost />
         </div>
     )
 }

@@ -4,7 +4,8 @@ import blogsContent from '../../assets/blogs-content.json';
 import dumby from '../../assets/pictures/testBackground.png'
 
 
-const BlogIndex = () => {
+const BlogArticel = () => {
+  console.log("used blogs!")
   let { slug } = useParams();
 
   const blogPost = blogsContent.blogs[slug];
@@ -27,4 +28,4 @@ const BlogIndex = () => {
   );
 };
 
-export default BlogIndex;
+export default BlogArticel;

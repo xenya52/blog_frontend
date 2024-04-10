@@ -1,25 +1,17 @@
-.blog-container{
-    display: flex;
-    justify-content: center;
-    justify-items: center;
-    margin-top: 1.5vh;
+.blog-card {
+    padding: 20px;
 }
-.blog-nav-container {
-    display: flex;
-    justify-content: center;
-    justify-items: center;
-    margin-top: 0.5vh;
+.blog-card img {
+    width: 80%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
 }
-.blog-button{
-    background-color: #fd95b4;
-    border: 2px solid #e87698;
-    text-align: center;
-    white-space: nowrap;
-    margin-right: 0.5vw;
-    margin-bottom: 0.5vh;
+.blog-card a{
+    color: #fd95b4;
+    text-decoration: none;
 }
-.blog-button:active{
-    background-color: #fd95b4;
-    border: 1px solid #e87698;
-    text-align: center;
+.blog-card a:hover{
+    color: #e87698;
+    text-decoration: none;
 }
