@@ -1,6 +1,6 @@
 import axios from "axios";
 export default function AxiosCallRequest() {
-    axios.post("http://localhost:8000/")
+    axios.get("http://localhost:8000/")
       .then(function (response) {
         console.log(response);
       })
