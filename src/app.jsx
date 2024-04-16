@@ -3,7 +3,7 @@ import { Footer, Header } from './components/index.jsx';
 //Pages
 import {AboutMe,
         Blogs,
-        BlogArticle,
+        BlogArticel,
         Error,
         Todos,
         Home} from './pages/index.jsx';
@@ -19,7 +19,7 @@ function App() {
         <Route path='aboutMe' component={AboutMe} />
         <Route path='blogs' nest> 
           <Route path='/' component={Blogs} />
-          <Route path='blogs/:slug' component={BlogArticle} />
+          <Route path='/:slug' component={BlogArticel} />
         </Route>
         <Route path='todos' component={Todos} />
         <Route component={Error} />

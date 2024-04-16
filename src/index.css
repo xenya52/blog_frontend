@@ -26,3 +26,14 @@ body{
   margin-right: 25vw;
   justify-content: center;
 }
+.button-default {
+  background-color: #fd95b4;
+  border: 0;
+  border-radius: 2rem;
+  padding: 5px;
+}
+
+.button-default:hover {
+  background-color: #fd95b4;
+  border: 0;
+}
