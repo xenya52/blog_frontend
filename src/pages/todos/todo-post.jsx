@@ -6,24 +6,31 @@ import './todo.css'
 function TodoPost() {
   let [content, setContent] = useState(todoContent)
 
-  const handleChecked = (i) => {
-    setContent(content.slice(i))
-  }
-
-  return (
-    <div>
-      {todoContent.map((content, index) => (
+  const ShowContent = () => {
+    return(
+      <div>
+      {content.map((content, index) => (
         <div className='todo-post-container' key={index}>
           <div>
             <h3>
-              <input type='checkbox'/>
+              <input onChange={handleChecked} type='checkbox'/>
               {content.title}
             </h3>
           </div>
           <p>{content.description}</p>
         </div>
       ))}
-    </div>
+      </div>
+    )
+  }
+  const handleChecked = (i) => {
+    setContent(content.slice(i))
+    console.log("checked")
+    
+  }
+
+  return (
+    <ShowContent />
   );
 }
 
