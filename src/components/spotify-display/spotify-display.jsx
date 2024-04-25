@@ -1,9 +1,11 @@
 import "./spotify-display.css"
 
 function SpotifyDisplay() {
-  <div className="spotify-display-container">
-    container
-  </div>
+  return(
+    <div className="spotify-display-container content-container">
+      container
+    </div>
+  )
 }
 
 export default SpotifyDisplay

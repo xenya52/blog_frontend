@@ -1,5 +1,5 @@
 //Components
-import { Footer, Header, SpotifyDisplay } from './components/index.jsx';
+import { Footer, Header } from './components/index.jsx';
 //Pages
 import {AboutMe,
         Blogs,
