@@ -5,6 +5,10 @@
     margin-bottom: 4vh;
     color: #2c2729;
     font-size: 17px;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
 }
 .header-container img{
     width: 30px;
@@ -28,6 +32,8 @@
     background-color: #fd95b4;
     border: 0px;
     border-radius: 15%;
+    margin-left: 1%;
+    margin-right: 1%;
 }
 .header-button:active{
     background-color: #fcb2c8;
