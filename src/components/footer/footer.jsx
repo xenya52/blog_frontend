@@ -10,7 +10,7 @@ function Footer() {
     return(
         <div className='footer-container'>
             <p>
-                <img src={logo} alt='logo'/>
+                <img src={logo} alt='logo' style={{marginRight:"1%"}} />
                 <span>2024 Lucy's blog</span> 
                 <a href='https://open.spotify.com/user/31hc5ssgze7rvkelwfz42phzyoeu'>
                     <img src={SpotifyIcon} alt='SpotifyIcon' />

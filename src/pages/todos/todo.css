@@ -1,13 +1,17 @@
 .todo-post-container{
     margin: 5px;
-    width: 50%;
     margin-left: auto;
     margin-right: auto;
-    border: 2px solid #e87698;
-    border-radius: 2rem;
-    text-align: center;
+    display: grid;
+    width: 50%;
 }
-
-.todo-post-container input{
-    margin: 5px;
+.todo-post-container button{
+    border-radius: 5rem;
+    font-size: 0.75vw;
+}
+.todo-post-container p{
+    color: #c4b9a1;
+}
+.todo-post-container img{
+    width: 3%;
 }
