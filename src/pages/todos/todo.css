@@ -13,5 +13,10 @@
     color: #c4b9a1;
 }
 .todo-post-container img{
-    width: 3%;
+    width: 7%;
+}
+.todo-post-right{
+    position: absolute;
+    right: 22%;
+    left: 58%;
 }

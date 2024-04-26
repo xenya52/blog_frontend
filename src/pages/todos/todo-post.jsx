@@ -12,8 +12,16 @@ function TodoPost() {
       <div>
       {content.map((content, index) => (
         <div className='todo-post-container'>
-          <h3>{content.title} <button className='button-default'>Status</button> <img src={arrowLeft} alt='arrowLeft' /></h3>
-          <p>{content.timestamp}</p>
+            <h3>
+              <span>
+                {content.title}
+              </span> 
+              <span className='todo-post-right'>
+                <button className='button-default'>Status</button> 
+                <img src={arrowLeft} alt='arrowLeft' />
+              </span>
+              </h3>
+            <p>{content.timestamp}</p>
           <hr />
         </div>
       ))}
