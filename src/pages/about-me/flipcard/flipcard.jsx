@@ -23,7 +23,7 @@ function Flipcard(props) {
                             <li>Prename: {prename}</li>
                             <li>Age: {age}</li>
                             <li>Height: {height}cm</li>
-                            <li>Pronounce: {pronounce}</li>
+                            <li>Pronouns: {pronounce}</li>
                             <li>Skills: 
                                 <ul>
                                     {skills.map((skill, index) => <li key={index}>{skill}</li>)}

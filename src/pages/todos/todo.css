@@ -5,18 +5,27 @@
     display: grid;
     width: 50%;
 }
-.todo-post-container button{
+.todo-post-container select{
     border-radius: 5rem;
     font-size: 0.75vw;
+    text-align: center;
+    -webkit-appearance: none;
+    -moz-appearance: none;
 }
+.todo-post-container select *{
+    background-color: black;
+}
+
 .todo-post-container p{
     color: #c4b9a1;
 }
 .todo-post-container img{
-    width: 7%;
+    margin-bottom: 2%;
+    margin-right: 1%;
+    width: 5%;
 }
 .todo-post-right{
     position: absolute;
-    right: 22%;
-    left: 58%;
+    right: 37.5%;
+    left: 59.5%;
 }

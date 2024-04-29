@@ -2,51 +2,61 @@
     {
         "title": "Einkaufen gehen",
         "timestamp":"2012-04-23T18:25:43.511Z",
-        "description": "Milch, Brot, K\u00e4se und Eier kaufen"
+        "description": "Milch, Brot, K\u00e4se und Eier kaufen",
+        "status": "todo"
     },
     {
         "title": "Wohnung putzen",
         "timestamp":"2012-04-23T18:25:43.511Z",
-        "description": "Staubsaugen und Boden wischen"
+        "description": "Staubsaugen und Boden wischen",
+        "status": "todo"
     },
     {
         "title": "Auto zur Inspektion bringen",
         "timestamp":"2012-04-23T18:25:43.511Z",
-        "description": "Termin f\u00fcr n\u00e4chste Woche vereinbaren"
+        "description": "Termin f\u00fcr n\u00e4chste Woche vereinbaren",
+        "status": "todo"
     },
     {
         "title": "Steuererkl\u00e4rung machen",
         "timestamp":"2012-04-23T18:25:43.511Z",
-        "description": "Alle Belege sammeln und Formulare ausf\u00fcllen"
+        "description": "Alle Belege sammeln und Formulare ausf\u00fcllen",
+        "status": "todo"
     },
     {
         "title": "Fitnessstudio anmelden",
         "timestamp":"2012-04-23T18:25:43.511Z",
-        "description": "N\u00e4chstgelegenes Fitnessstudio finden und anmelden"
+        "description": "N\u00e4chstgelegenes Fitnessstudio finden und anmelden",
+        "status": "todo"
     },
     {
         "title": "Buch lesen",
         "timestamp":"2012-04-23T18:25:43.511Z",
-        "description": "Das neue Buch von meinem Lieblingsautor anfangen"
+        "description": "Das neue Buch von meinem Lieblingsautor anfangen",
+        "status": "todo"
     },
     {
         "title": "Pflanzen gie\u00dfen",
         "timestamp":"2012-04-23T18:25:43.511Z",
-        "description": "Alle Zimmerpflanzen gr\u00fcndlich gie\u00dfen"
+        "description": "Alle Zimmerpflanzen gr\u00fcndlich gie\u00dfen",
+        "status": "todo"
     },
     {
         "title": "Geschenk kaufen",
         "timestamp":"2012-04-23T18:25:43.511Z",
-        "description": "Geburtstagsgeschenk f\u00fcr besten Freund aussuchen"
+        "description": "Geburtstagsgeschenk f\u00fcr besten Freund aussuchen",
+        "status": "todo"
     },
     {
         "title": "Arzttermin vereinbaren",
         "timestamp":"2012-04-23T18:25:43.511Z",
-        "description": "J\u00e4hrliche Kontrolluntersuchung planen"
+        "description": "J\u00e4hrliche Kontrolluntersuchung planen",
+        "status": "todo"
     },
     {
         "title": "Reise planen",
         "timestamp":"2012-04-23T18:25:43.511Z",
-        "description": "Urlaubsort recherchieren und Unterkunft buchen"
+        "description": "Urlaubsort recherchieren und Unterkunft buchen",
+        "status": "todo"
     }
 ]
