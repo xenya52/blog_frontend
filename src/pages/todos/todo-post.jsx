@@ -6,6 +6,28 @@ import './todo.css'
 
 function TodoPost() {
   let [content, setContent] = useState(todoContent)
+  let [todoStatus, setTodoStatus] = useState("") //todo active / paused / done!
+  
+  let [statusDropdownMenu, setStatusDropdownMenu] = useState()
+  let [isVisibleDropdown, setIsVIsibleDropdown] = useState(false)
+  //TODO!!!
+  const setVisiblityStatusDropdown = () => {
+    setIsVIsibleDropdown(!isVisibleDropdown)
+    if (isVisibleDropdown) {
+      setStatusDropdownMenu(
+        <div style={{backgroundColor:"#ffffff"}}>
+          <a>todo</a>
+          {console.log("click!")}
+          <a>active</a>
+          <a>paused</a>
+          <a>done</a>
+        </div>
+      )
+    }
+    else{
+      setStatusDropdownMenu(<></>)
+    }
+  }
 
   const ShowContent = () => {
     return(
@@ -17,7 +39,8 @@ function TodoPost() {
                 {content.title}
               </span> 
               <span className='todo-post-right'>
-                <button className='button-default'>Status</button> 
+                <button className='button-default' onClick={setVisiblityStatusDropdown}>Status</button>
+                {statusDropdownMenu}
                 <img src={arrowLeft} alt='arrowLeft' />
               </span>
               </h3>
@@ -27,11 +50,6 @@ function TodoPost() {
       ))}
       </div>
     )
-  }
-  const handleChecked = (i) => {
-    setContent(content.slice(i))
-    console.log("checked")
-    
   }
 
   return (
