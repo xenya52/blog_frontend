@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'wouter';
 import todoContent from '../../assets/todo-content.json';
 import pencil from '../../assets/pictures/icons/pencil.png'
 
@@ -6,14 +7,16 @@ import './todo.css'
 
 function TodoPost() {
   let [content, setContent] = useState(todoContent)
-  const ShowContent = () => {
-    return(
-      <div>
+
+  return (
+    <div>
       {content.map((content, index) => (
         <div key={index} className='todo-post-container'>
             <h3>
               <span>
-              <img src={pencil} alt='arrowLeft' />
+              <Link to={'/'+index} slug={todoContent[index]}>
+                <img src={pencil} alt='arrowLeft' />
+              </Link>
                 {content.title}
               </span> 
               <span className='todo-post-right'>
@@ -30,15 +33,6 @@ function TodoPost() {
         </div>
       ))}
       </div>
-    )
-  }
-
-  const editContent = (index) => {
-    
-  }
-
-  return (
-    <ShowContent />
   );
 }
 

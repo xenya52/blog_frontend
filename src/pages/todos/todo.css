@@ -1,3 +1,7 @@
+.edit-todo-post-container{
+    border: 1px solid #e87698;
+    background-color: #2c2729;
+}
 .todo-post-container{
     margin: 5px;
     margin-left: auto;

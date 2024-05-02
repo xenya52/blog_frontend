@@ -6,6 +6,7 @@ import {AboutMe,
         BlogArticel,
         Error,
         Todos,
+        TodoPostEdit,
         Home} from './pages/index.jsx';
 //External Libaries
 import { Route, Switch } from 'wouter';
@@ -21,7 +22,10 @@ function App() {
           <Route path='/' component={Blogs} />
           <Route path='/:slug' component={BlogArticel} />
         </Route>
-        <Route path='todos' component={Todos} />
+        <Route path='todos' nest> 
+          <Route path='/' component={Todos} />
+          <Route path='/:slug' component={TodoPostEdit} />
+        </Route>
         <Route component={Error} />
       </Switch>
       <Footer />

@@ -5,7 +5,6 @@ import dumby from '../../assets/pictures/testBackground.png'
 
 
 const BlogArticel = () => {
-  console.log("used blogs!")
   let { slug } = useParams();
 
   const blogPost = blogsContent.blogs[slug];
