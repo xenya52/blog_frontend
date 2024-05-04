@@ -11,30 +11,16 @@ function TodoPostEdit() {
     return(
         <div className="edit-todo-post-container content-container">
             <form>
-                <h1 className='topic-h1-headline'>{todo.title}</h1>
-                <div>
-                    <span>
-                        <label>Title</label>
-                        <input type="text" placeholder={todo.title}></input>
-                    </span>
-                </div>
-                <div>
-                    <span>
-                        <label>Timestamp</label>
-                        <input type="text" placeholder={todo.timestamp}></input>
-                    </span>
-                </div>
-                <div>
-                    <span>
-                        <label>Description</label>
-                        <input type="text" placeholder={todo.description}></input>
-                    </span>
-                </div>
-                <div>
-                    <span>
-                        <label>Status</label>
-                        <input type="text" placeholder={todo.status}></input>
-                    </span>
+                <h1 className='topic-h1-headline'>Edit Menu [{slug}]</h1>
+                <div className='todo-edit-container'>
+                    <label>Title</label>
+                    <input type="text" placeholder={todo.title}></input>
+                    <label>Timestamp</label>
+                    <input type="text" placeholder={todo.timestamp}></input>
+                    <label>Description</label>
+                    <input type="text" placeholder={todo.description}></input>
+                    <label>Status</label>
+                    <input type="text" placeholder={todo.status}></input>
                 </div>
             </form>
         </div>
