@@ -34,13 +34,14 @@
 }
 .todo-edit-container{
     display: grid;
-    grid-template-columns: 30% auto;
+    grid-template-columns: 7vw auto;
     width: 75%;
     margin-left: 13%;
     margin-right: auto;
+    font-size: 1.2vw;
 }
 .todo-edit-container input{
-    margin-bottom: 5px;
+    margin-bottom: 5%;
     color: #c4b9a1;
     border: 1px solid #e87698;
     background-color: #2b2427;

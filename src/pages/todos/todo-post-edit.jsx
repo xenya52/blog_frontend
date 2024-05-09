@@ -22,6 +22,7 @@ function TodoPostEdit() {
                     <label>Status</label>
                     <input type="text" placeholder={todo.status}></input>
                 </div>
+                <button className='button-default' style={{marginLeft:"13%"}}>←</button>
             </form>
         </div>
   )
