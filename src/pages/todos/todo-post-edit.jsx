@@ -14,13 +14,13 @@ function TodoPostEdit() {
                 <h1 className='topic-h1-headline'>Edit Menu [{slug}]</h1>
                 <div className='todo-edit-container'>
                     <label>Title</label>
-                    <input type="text" placeholder={todo.title}></input>
+                    <input id="title_input" type="text" placeholder={todo.title}></input>
                     <label>Timestamp</label>
-                    <input type="text" placeholder={todo.timestamp}></input>
+                    <input id="timestamp_input" type="text" placeholder={todo.timestamp}></input>
                     <label>Description</label>
-                    <input type="text" placeholder={todo.description}></input>
+                    <input id="description_input" type="text" placeholder={todo.description}></input>
                     <label>Status</label>
-                    <input type="text" placeholder={todo.status}></input>
+                    <input id="status_input" type="text" placeholder={todo.status}></input>
                 </div>
                 <button className='button-default' style={{marginLeft:"13%"}}>←</button>
             </form>
