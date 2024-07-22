@@ -1,7 +1,6 @@
 import './blogs.css';
 import { Link } from 'wouter';
 import blogsContent from '../../assets/blogs-content.json';
-import dumby from '../../assets/pictures/testBackground.png'
 
 import Slider from "react-slick";
 
@@ -20,7 +19,7 @@ function Blogs() {
                 <Slider {...settings}>
                     {blogsContent.blogs.map((blog, index) => {
                         return <div key={index} className='blog-card'>
-                            <img src={dumby} alt='blog-img'  className='img-default'/>
+                            <img src={blog.image_debug_path} alt='blog-img'  className='img-default'/>
                             <h1>{blog.title}</h1>
                             <p>
                                 {blog.introduction}

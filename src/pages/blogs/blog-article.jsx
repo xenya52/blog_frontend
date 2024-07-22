@@ -1,7 +1,6 @@
 import React, { useEffect } from 'react';
 import { useParams, Link } from 'wouter';
 import blogsContent from '../../assets/blogs-content.json';
-import dumby from '../../assets/pictures/testBackground.png'
 
 
 const BlogArticel = () => {
@@ -12,12 +11,12 @@ const BlogArticel = () => {
   if (!blogPost) {
     return <div>Blogpost not found!</div>;
   }
-
   return (
     <div>
         <div className='content-container'>
           <div>
-            <img  className='img-default'src={dumby}  />
+            {console.log(blogPost.image_debug_path)}
+            <img className='img-default'src={blogPost.image_debug_path} alt='blog-img'/>
           </div>
           <h3>{blogPost.title}</h3>
           <p>{blogPost.introduction}</p>

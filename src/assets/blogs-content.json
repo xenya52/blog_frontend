@@ -9,7 +9,8 @@
           "Tools and Techniques: An overview of tools and methodologies, like the Pomodoro Technique and Eisenhower Matrix, that can optimize your time management.",
           "Overcoming Procrastination: Strategies for tackling procrastination to stay on track with your goals.",
           "Maintaining Balance: How to ensure your pursuit of productivity doesn’t come at the expense of your well-being."
-        ]
+        ],
+        "image_debug_path": "./pictures/picture_placeholder_one.jpg"
       },
       {
         "title": "The Power of Positive Thinking: Transforming Your Mindset",
@@ -20,7 +21,8 @@
           "Challenging Negative Thoughts: Techniques for identifying and overcoming negative thought patterns.",
           "Benefits of Positivity: From improved health to better stress management, discover the myriad benefits of adopting a positive mindset.",
           "Incorporating Gratitude: How the practice of gratitude complements positive thinking and enhances life satisfaction."
-        ]
+        ],
+        "image_debug_path": "../../assets/pictures/picture_placeholder_two.jpg"
       },
       {
         "title": "Lifelong Learning: Keeping Your Mind Sharp and Skills Fresh",
@@ -31,7 +33,8 @@
           "Leveraging Online Resources: A guide to the wealth of online learning tools and platforms available.",
           "Creating a Learning Plan: Setting goals and structuring your learning endeavors for maximum impact.",
           "Staying Motivated: Keeping the flame of curiosity alive, even when life gets busy."
-        ]
+        ],
+        "image_debug_path": "./pictures/picture_placeholder_three.jpg"
       },
       {
         "title": "The Art of Mindful Living: Being Present in a Distracted World",
@@ -42,18 +45,8 @@
           "Mindfulness and Mental Health: How mindfulness can alleviate stress, anxiety, and depression.",
           "Enhancing Relationships: The role of mindfulness in fostering deeper connections with others.",
           "Mindful Eating and Exercise: Applying mindfulness to health and fitness for a holistic approach to well-being."
-        ]
-      },
-      {
-        "title": "Breaking Bad Habits: Strategies for Lasting Change",
-        "introduction": "Everyone has habits they wish they could break, but change is hard. This blog offers a deep dive into understanding bad habits and provides effective strategies for breaking them and forming healthier ones.",
-        "main_points": [
-          "Anatomy of a Habit: Understanding the cue, routine, reward loop that underpins all habits.",
-          "Identifying Triggers: How to recognize the triggers that lead to bad habits and how to avoid or alter them.",
-          "Setting Yourself Up for Success: Creating an environment and lifestyle conducive to positive change.",
-          "Replacing Bad Habits with Good Ones: Practical advice for substituting detrimental habits with beneficial ones.",
-          "The Role of Persistence: Emphasizing the importance of resilience and self-compassion in the journey towards change."
-        ]
+        ],
+        "image_debug_path": "./pictures/picture_placeholder_four.jpg"
       }
     ]
   }
