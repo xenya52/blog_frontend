@@ -32,7 +32,6 @@ function Header() {
                 <Link to='/'><button className='header-button'>Home</button></Link>|
                 <Link to='/AboutMe'><button className='header-button'>About me</button></Link>|
                 <Link to='/Blogs'><button className='header-button'>Blogs</button></Link>|
-                <Link to='/Todos'><button className='header-button'>Todos</button></Link>
         </div>
     )
 }
